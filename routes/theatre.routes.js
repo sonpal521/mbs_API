@@ -29,10 +29,10 @@ const routes = (app) => {
     );
 
     // READ
-    app.get(
-        '/mba/api/v1/theatres',
-        theatreController.getTheatres
-    );
+    // app.get(
+    //     '/mba/api/v1/theatres',
+    //     theatreController.getTheatres
+    // );
 
     // UPDATE
     app.patch(
